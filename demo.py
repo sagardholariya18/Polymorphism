@@ -1,30 +1,30 @@
-class Car:
-  def __init__(self, brand, model):
-    self.brand = brand
-    self.model = model
+class sagar:
+  def __init__(self, x, y):
+    self.x = x
+    self.y = y
 
-  def move(self):
-    print("Drive!")
+  def G(self):
+    print("HELLO DEMO")
 
-class Boat:
-  def __init__(self, brand, model):
-    self.brand = brand
-    self.model = model
+class Tg:
+  def __init__(self, a, b):
+    self.a = a
+    self.b = b
 
-  def move(self):
-    print("Sail!")
+  def G(self):
+    print("HELLO WORLD")
 
-class Plane:
-  def __init__(self, brand, model):
-    self.brand = brand
-    self.model = model
+class tgmec:
+  def __init__(self, c, d):
+    self.c = c
+    self.d = d
 
-  def move(self):
-    print("Fly!")
+  def G(self):
+    print("HELLO SAGAR")
 
-car1 = Car("Ford", "Mustang")       #Create a Car class
-boat1 = Boat("Ibiza", "Touring 20") #Create a Boat class
-plane1 = Plane("Boeing", "747")     #Create a Plane class
+sagar1 = sagar("hello", "sagar")    
+tg1 = Tg("x", "demo") 
+tgmec1 = tgmec("tg", "123456")    
 
-for x in (car1, boat1, plane1):
-  x.move()
+for x in (sagar1, tg1, tgmec1):
+  x.G()
